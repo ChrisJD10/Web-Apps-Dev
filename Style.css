@@ -1,0 +1,226 @@
+header nav ul {
+list-style: None;
+margin: 0;
+padding: 0;
+margin-top: 10px;
+}
+
+header nav{
+height: 30px; 
+padding-bottom: 20px;
+padding-top: 20px
+}
+
+header nav ul li{
+display: Inline-block;
+padding-left: 10px;
+}
+
+header{
+position: fixed; 
+width:100%;
+top:0px;
+left:0px;
+background: #FFFFFF;
+width: 1100px;
+font-family: Verdana;
+font-size: 16px;
+}
+
+head{
+width: 1100px;
+font-size: 16px;
+font-family: Verdana;
+}
+
+
+main{
+margin-top:100px;
+width: 1100px;
+font-size: 16px;
+font-family: Verdana;
+}
+	
+body {
+margin-top: 150px;
+background:#FFFFFF;
+font-family: Verdana;
+width: 1100px;
+font-size: 16px;
+}
+
+footer{
+ margin-top: 150px;
+ font-size: 16px;
+ font-family: Verdana;
+}
+
+p {
+	font-size: 16px;
+	font-family: Verdana;
+}
+
+a {
+Font-family: Verdana;
+font-size: 16px;
+Text-decoration: none;
+color: #000000;
+font-family: Verdana;
+}
+
+th, tr td {
+text-align: center;
+border: 1px solid #000000;
+padding: 5px ;
+border-spacing: 5px;
+font-size: 16px;
+font-family: Verdana;
+}
+
+table{
+margin-right: 20px;
+border: 1px solid #000000;
+padding: 10px ;
+border-spacing: 10px;
+}
+
+/*
+	Comment in CSS like this
+*/
+
+.links{
+font-family: Verdana;
+color:#000000;
+Text-decoration: none;
+}
+
+.links:hover{
+font-family: Verdana;
+text-decoration: none;
+font-size: 30px;
+}
+
+/*
+	colour 1-4 will be used for the 
+	Jscript to allow the user to change
+	the colour scheme to suit reading needs
+*/
+
+.colour1{
+background:#FFFFFF;
+color: #000000;
+cursor: pointer;
+}
+
+.colour2{
+background: #80b2ff;
+color: #000000;
+cursor: pointer;
+}
+
+.colour3{
+background: #ffffb3;
+color: #000000;
+cursor: pointer;
+}
+
+.colour4{
+background:#000000;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.clear {
+clear: both;
+}
+
+.right {
+float: right;
+}
+
+.left {
+float: left;
+}
+
+.center {
+text-align: center;
+}
+
+.fifty {
+width: 50%;
+}
+
+.thirty{
+width: 33.33%;
+}
+
+.sixty{
+width: 66.66%;
+}
+
+.info1{
+width: 100px;
+float: left;
+padding-top: 20px;
+}
+
+/*
+info1 is the left column on the game pages
+This shows what information is shown to the right of it
+*/
+
+.info2{
+width: 150px;
+float: left;
+padding-top: 20px;
+}
+
+/*
+info2 is the right column on the game pages
+This shows the information that is relevent to the text on the left
+*/
+
+.gameinfo{
+width: 300px;
+float: left;
+}
+
+/*
+Gameinfo is the div tag which contains both info1 and info2
+*/
+
+.revside{
+width: 200px;
+float: right;
+}
+
+/*
+revside is the right side of the page which contains the review button
+*/
+
+.sum{
+width: 600px;
+float: left;
+}
+
+/*
+sum contains the summery of the game as well as the video trailer
+*/
+
+.rev{
+width: 600px;
+float: left;
+padding-left: 300px;
+padding-bottom: 150px;
+}
+
+/*
+rev contains user submitted reviews
+*/
+
+@media only screen and (max-width: 600px){
+.Thirty {width: 100%;}
+.Sixty {width: 100%;}
+.Fifty {width: 100%;}
+}
+
